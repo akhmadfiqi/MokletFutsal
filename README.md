@@ -9,10 +9,10 @@ Absen : 05 <br>
 ![alt text](https://raw.githubusercontent.com/akhmadfiqi/MokletFutsal/outputprogram/welcome.PNG)
 <br>
 2. <br>
-![alt text](https://raw.githubusercontent.com/akhmadfiqi/ModulPolymorphism/master/latihan2.PNG)
+![alt text](https://raw.githubusercontent.com/akhmadfiqi/MokletFutsal/master/welcome.PNG)
 <br>
 3. <br>
-![alt text](https://raw.githubusercontent.com/akhmadfiqi/ModulPolymorphism/master/latihan3.PNG)
+![alt text](https://raw.githubusercontent.com/akhmadfiqi/MokletFutsal/master/outputprogram/welcome.PNG)
 <br>
 4. <br>
 ![alt text](https://raw.githubusercontent.com/akhmadfiqi/ModulPolymorphism/master/latihan4.PNG)
