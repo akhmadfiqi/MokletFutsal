@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mokletfutsal.SignupController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/bg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="144.0" layoutY="23.0" prefHeight="49.0" prefWidth="327.0" text="SignUp Anggota" textFill="#ee0b0b">
+         <font>
+            <Font name="Aharoni Bold" size="40.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="1.485" offsetX="4.0" radius="0.0" spread="0.49" width="0.0" />
+         </effect>
+      </Label>
+      <Pane layoutX="125.0" layoutY="80.0" opacity="0.8" prefHeight="316.0" prefWidth="364.0" style="-fx-background-color: #d8d1d0;">
+         
+         <children>
+            <BorderPane layoutX="17.0" layoutY="81.0" prefHeight="221.0" prefWidth="327.0" style="-fx-background-color: grey;" />
+            <Label layoutX="40.0" layoutY="130.0" prefHeight="14.0" prefWidth="48.0" text="Kelas" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="162.0" prefHeight="14.0" prefWidth="48.0" text="Lahir" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="194.0" prefHeight="26.0" prefWidth="56.0" text="Alamat" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="227.0" prefHeight="26.0" prefWidth="48.0" text="Posisi" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="alamats" layoutX="117.0" layoutY="195.0" prefHeight="25.0" prefWidth="209.0" />
+            <TextField fx:id="posisis" layoutX="117.0" layoutY="228.0" prefHeight="25.0" prefWidth="209.0" />
+            <TextField fx:id="ttls" layoutX="117.0" layoutY="163.0" prefHeight="25.0" prefWidth="209.0" promptText="31-12-1999" />
+            <TextField fx:id="kelass" layoutX="117.0" layoutY="131.0" prefHeight="25.0" prefWidth="209.0" />
+            <TextField fx:id="namas" layoutX="117.0" layoutY="98.0" prefHeight="25.0" prefWidth="209.0" />
+            <JFXButton fx:id="daftars" layoutX="117.0" layoutY="262.0" onAction="#daftar" style="-fx-background-color: #ff981c;" text="Daftar">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="40.0" layoutY="97.0" prefHeight="14.0" prefWidth="48.0" text="Nama" textFill="#fffefe">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="keluars" layoutX="259.0" layoutY="262.0" onAction="#kels" style="-fx-background-color: #ff981c;" text="Keluar">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="66.0" fitWidth="72.0" layoutX="149.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../gambar/daftar.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <InnerShadow height="115.64" radius="57.32" width="115.64" />
+         </effect>
+      </Pane>
+      <ImageView fitHeight="66.0" fitWidth="72.0" layoutX="-6.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/ts.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mokletfutsal.LoginController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/bg.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="124.0" layoutY="43.0" prefHeight="49.0" prefWidth="369.0" text="Login Moklet Futsal" textFill="#ee0b0b">
+         <font>
+            <Font name="Aharoni Bold" size="40.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="0.0" offsetX="4.0" radius="0.0" spread="0.49" width="0.0" />
+         </effect>
+      </Label>
+      <Pane layoutX="132.0" layoutY="118.0" opacity="0.75" prefHeight="207.0" prefWidth="354.0" style="-fx-background-color: #bcb7b3;">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <children>
+            <JFXButton fx:id="loginl" layoutX="127.0" layoutY="155.0" onAction="#login" style="-fx-background-color: #ff981c;" text="Log In">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField fx:id="usernamel" layoutX="127.0" layoutY="64.0" style="-fx-background-color: #a5a19d;" />
+            <ImageView fitHeight="49.0" fitWidth="47.0" layoutX="79.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../gambar/profil.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="47.0" layoutX="84.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../gambar/password.png" />
+               </image>
+            </ImageView>
+            <JFXPasswordField fx:id="passwordl" layoutX="127.0" layoutY="112.0" style="-fx-background-color: #a5a19d;" />
+            <ImageView fitHeight="56.0" fitWidth="61.0" layoutX="160.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../gambar/admin.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <InnerShadow height="41.51" radius="20.255" width="41.51" />
+         </effect>
+      </Pane>
+      <ImageView fitHeight="66.0" fitWidth="72.0" layoutX="-6.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/ts.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
